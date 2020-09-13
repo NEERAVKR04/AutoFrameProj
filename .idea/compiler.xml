@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Auto-domain" />
         <module name="Auto-Framework" />
+        <module name="Auto-page-objects" />
+        <module name="Auto-regression-tests" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
