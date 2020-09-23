@@ -14,6 +14,13 @@
         <module>Auto-page-objects</module>
         <module>Auto-regression-tests</module>
     </modules>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <selenium.version>3.14.0</selenium.version>
+        <webdrivermanager.version>3.0.0</webdrivermanager.version>
+        <java.version>1.8</java.version>
+        <testng.version>6.14.3</testng.version>
+    </properties>
 
 
 </project>
