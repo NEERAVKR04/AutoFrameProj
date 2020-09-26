@@ -9,10 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>Auto-Framework</module>
-        <module>Auto-domain</module>
-        <module>Auto-page-objects</module>
-        <module>Auto-regression-tests</module>
+        <module>auto-framework</module>
+        <module>auto-domain</module>
+        <module>auto-page-objects</module>
+        <module>auto-tests</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
