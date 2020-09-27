@@ -1,3 +1,4 @@
+package auto.framework.core;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -18,6 +19,9 @@ public class BasePage {
         this.driver = driver;
         wait = new WebDriverWait(driver, TIMEOUT, POLLING);
         PageFactory.initElements(new AjaxElementLocatorFactory(driver, TIMEOUT), this);
+    }
+    public BasePage(){
+        wait = new WebDriverWait(driver, TIMEOUT, POLLING);
     }
 
     protected void waitForElementToAppear(By locator) {
