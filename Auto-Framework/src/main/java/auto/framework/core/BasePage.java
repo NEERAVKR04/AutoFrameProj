@@ -20,9 +20,9 @@ public class BasePage {
         wait = new WebDriverWait(driver, TIMEOUT, POLLING);
         PageFactory.initElements(new AjaxElementLocatorFactory(driver, TIMEOUT), this);
     }
-    public BasePage(){
-        wait = new WebDriverWait(driver, TIMEOUT, POLLING);
-    }
+//    public BasePage(){
+//        wait = new WebDriverWait(driver, TIMEOUT, POLLING);
+//    }
 
     protected void waitForElementToAppear(By locator) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
