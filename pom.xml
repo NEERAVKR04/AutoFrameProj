@@ -9,10 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>auto-framework</module>
-        <module>auto-page-objects</module>
         <module>auto-domains</module>
-        <module>auto-tests</module>
+        <module>autoFrame-framework</module>
+        <module>autoFrame-page-objects</module>
+        <module>autoFrame-domains</module>
     </modules>
 
     <properties>

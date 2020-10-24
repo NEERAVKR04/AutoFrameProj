@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>auto-page-objects</artifactId>
+    <artifactId>autoFrame-domains</artifactId>
 
 
 </project>
