@@ -10,13 +10,17 @@
         <module name="Auto-domain" />
         <module name="Auto-Framework" />
         <module name="Auto-regression-tests" />
+        <module name="auto-domains" />
         <module name="auto-framework" />
         <module name="Auto-page-objects" />
-        <module name="auto-domain" />
         <module name="auto-page-objects" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="auto-domain" target="1.5" />
+      <module name="auto-framework" target="1.5" />
+      <module name="auto-page-objects" target="1.5" />
+      <module name="auto-tests" target="1.5" />
       <module name="untitled" target="1.5" />
     </bytecodeTargetLevel>
   </component>
