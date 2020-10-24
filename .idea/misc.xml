@@ -10,6 +10,10 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Test-Framework/pom.xml" />
+        <option value="$PROJECT_DIR$/auto-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/auto-framework/pom.xml" />
+        <option value="$PROJECT_DIR$/auto-page-objects/pom.xml" />
+        <option value="$PROJECT_DIR$/auto-tests/pom.xml" />
       </set>
     </option>
   </component>
