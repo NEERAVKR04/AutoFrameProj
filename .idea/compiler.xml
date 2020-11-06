@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Auto-domain" />
+        <module name="autoFrame-tests" />
         <module name="Auto-Framework" />
         <module name="Auto-regression-tests" />
         <module name="autoFrame-page-objects" />
-        <module name="auto-domains" />
         <module name="autoFrame-domains" />
         <module name="Auto-page-objects" />
         <module name="autoFrame-framework" />
