@@ -10,6 +10,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>autoFrame-tests</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>AutoFrameProj</groupId>
+            <artifactId>autoFrame-framework</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>AutoFrameProj</groupId>
+            <artifactId>autoFrame-page-objects</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>

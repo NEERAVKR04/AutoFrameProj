@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-public class BasePage {
+    public class BasePage {
     private static final int TIMEOUT= 5;
     private static final int POLLING= 10;
 
